@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lab #1: HTML & CSS</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <h1 id="title">The Boston College FactBook</h1>
+    <div class="row">
+      <div id="col_one" class="column">
+        <img id="image"
+          src="https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/students1000x675.jpg.transform/gallery-medium/image.jpg" />
+        <button id="generate" class="button">Search for a new fact</button>
+        <a id="link"
+          href="https://www.bc.edu/content/bc-web/offices/office-of-university-communications/our-work/photography.html"
+          data-replace="See more photos"><span>See more photos</span></a>
+      </div>
+      <div class="column">
+        <div id="content">
+          <text id="header">Facts:</text>
+          <br>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>

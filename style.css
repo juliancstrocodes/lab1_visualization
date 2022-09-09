@@ -1,0 +1,49 @@
+#title {
+    text-align: center;
+}
+
+#content {
+    background-color: maroon;
+    color: gold;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#col_one {
+    vertical-align: auto;
+    margin: 20px;
+}
+
+#image {
+    border-radius: 15px;
+    border: 5px solid gold;
+}
+
+#content>p {
+    color: white;
+    margin: 10px;
+}
+
+
+#link {
+    color: gold;
+}
+
+#link:hover {
+    color: maroon
+}
+
+#header {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: maroon;
+    color: gold;
+}
+
+.button:hover {
+    color: maroon;
+    background-color: gold;
+}
